@@ -1,0 +1,142 @@
+.wrapp{
+    background-color: rgb(250, 235, 218);
+}
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.pseudo {
+    margin: 0.5rem;
+}
+
+.password {
+    margin: 0.5rem;
+}
+
+label {
+    font-size: 1rem;
+}
+input:invalid + span:after {
+    content: '✖';
+    color: red;
+    padding-left: 5px;
+}
+
+input:valid + span:after {
+    content: '✓';
+    color: #26b72b;
+    padding-left: 5px;
+}
+
+
+.formulaire{
+    margin: 1em;
+}
+
+.logo{
+    margin: 1em;
+}
+
+.connexion{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 3em;   
+    }
+
+@media screen and (max-width: 800px) {
+.logo{
+    position: absolute;
+    left: -999em; 
+    }
+}
+
+.footer{
+    padding-top: 10em;
+    padding-bottom: 2em;
+}
+
+@media screen and (max-width: 600px) {
+.centragefooter{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:1em;
+    padding-top:1em;
+    text-align: center;
+    }            
+}
+
+
+@media screen and (max-width: 600px) {
+.newsletter{
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    text-align: center;
+    }            
+}
+
+@media screen and (max-width: 600px) {
+.liens{
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom:2em;
+    padding-top: 2em;
+    text-align: center;
+    }            
+}
+
+@media screen and (max-width: 600px) {
+.liens p{
+    font-size: 20px;
+    text-align: center;
+    }            
+}
+
+
+.icones{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.icones img{
+    width: 18em;
+    height: 18em;
+}
+
+.centragefooter{
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+.liens img{
+  width: 2em;
+  height: 2em;
+  margin-right:1em;
+}
+
+.infos{
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+p.infos{
+    font-size: 5px;
+}
